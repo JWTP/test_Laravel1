@@ -15,7 +15,10 @@ class PagesController extends Controller
         $title = 'About us';
         return view('pages.about', compact('title'));
     }
-
+    public function form(){
+        $title = 'Form';
+        return view('pages.form', compact('title'));
+    }
      public function services(){
         $data = array(
             'title' => 'Services',

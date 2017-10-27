@@ -10,10 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-even wat code wat er niet hoort om te pushen
-
-
 /*
 // Route::get('/hello', function () {
 //     return 'welcome';
@@ -27,5 +23,10 @@ Route:: get('/users/{id}/{name}', function($id, $name){
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services'); 
+Route::get('/form', 'PagesController@form'); 
 
 route::resource('posts', 'PostsController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

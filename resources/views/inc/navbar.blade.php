@@ -14,6 +14,7 @@
                 <li><a href="http://localhost/Jaar2/laravel/test_Laravel1/public/">Home</a></li>
                 <li><a href="http://localhost/Jaar2/laravel/test_Laravel1/public/about">About</a></li>
                 <li><a href="http://localhost/Jaar2/laravel/test_Laravel1/public/services">Services</a></li>
+                <li><a href="http://localhost/Jaar2/laravel/test_Laravel1/public/form">form</a></li>
             </ul>
         </div>
     </div>
